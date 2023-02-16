@@ -1,5 +1,5 @@
 import Wrapper from '../assets/wrappers/Navbar'
-import {FaAlignLeft, FaUserCircle, FaCaretDown, FaUser} from 'react-icons/fa'
+import {FaAlignLeft, FaCaretDown, FaUser} from 'react-icons/fa'
 import { useAppContext } from '../context/appContext'
 import Logo from './Logo'
 import { useState } from 'react'

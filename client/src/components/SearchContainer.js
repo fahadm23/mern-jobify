@@ -6,7 +6,6 @@ const SearchContainer = () => {
   const [localSearch, setLocalSearch] = useState('');
   const {
     isLoading,
-    search,
     searchStatus,
     searchType,
     sort,
@@ -34,7 +33,9 @@ const SearchContainer = () => {
       }, 1000);
     };
   };
-  const optimizedDebounce = useMemo(() => debounce(), []);
+  const optimizedDebounce = useMemo(() => debounce(),
+  // eslint-disable-next-line
+   []);
   return (
     <Wrapper>
       <form className='form'>
